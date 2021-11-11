@@ -36,7 +36,7 @@ export default function Home({ posts, events, media }) {
       </Head>
 
       <div className="container pt-5">
-        <h1 className="text-center pb-5">Tech Blog</h1>
+        <h1 className="text-center pb-5">Next.js + Wordpress</h1>
         <div className="row">
           <div className="col-lg-8">
             <h2 className="pb-3">Our blog posts</h2>
