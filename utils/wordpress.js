@@ -1,4 +1,4 @@
-const BASE_URL = 'https://next-wordpress.christopherdunne.co.uk/wp-json/wp/v2';
+const BASE_URL = 'http://next-wordpress.christopherdunne.co.uk/wp-json/wp/v2';
 
 export async function getPosts() {
   const postsRes = await fetch(BASE_URL + '/posts');
